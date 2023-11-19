@@ -35,7 +35,7 @@ namespace RecursionIter
 
         public double Recursion()
         {
-            return CosH(1, 1, -1);
+            return CosH(1, 1, 1);
         }
 
         private double CosH(double currTerm, int n, int mul)
