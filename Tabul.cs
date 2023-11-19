@@ -7,7 +7,7 @@ using System.Windows;
 
 namespace RecursionIter
 {
-    internal class Tabul
+    public class Tabul
     {
         public List<Point> Res = new List<Point> ();
         public void AddPoint(Point point)

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RecursionIter
 {
-    internal class Cosinus : Component
+    public class Cosinus : Component
     {
         private readonly double min = 0.001;
         private readonly double x;
