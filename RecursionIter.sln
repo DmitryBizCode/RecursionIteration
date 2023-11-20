@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionIter", "RecursionIter.csproj", "{B1C31BB7-E4C8-41B6-AD31-F635F06EA5BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testx", "Testx\Testx.csproj", "{F515E3A9-5B0D-4D2E-9F4D-39FA527C69AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testx", "Testx\Testx.csproj", "{F515E3A9-5B0D-4D2E-9F4D-39FA527C69AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosi", "Cosi\Cosi.csproj", "{7B3E3E7F-B5BE-4AEC-8733-B1BB276CE497}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F515E3A9-5B0D-4D2E-9F4D-39FA527C69AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F515E3A9-5B0D-4D2E-9F4D-39FA527C69AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F515E3A9-5B0D-4D2E-9F4D-39FA527C69AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3E3E7F-B5BE-4AEC-8733-B1BB276CE497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3E3E7F-B5BE-4AEC-8733-B1BB276CE497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3E3E7F-B5BE-4AEC-8733-B1BB276CE497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3E3E7F-B5BE-4AEC-8733-B1BB276CE497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

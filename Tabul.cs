@@ -22,7 +22,7 @@ namespace RecursionIter
                 var x = a;
                 while (x < b)
                 {
-                    var cos = new Cosinus(x);
+                    var cos = new Cosi.Cosinus (x);
                     AddPoint(new Point(Math.Round(x, 3), Math.Round(Math.Cos(x), 3), Math.Round(cos.Iterative(), 3), Math.Round(cos.Recursion(), 3)));
                     x += c;
                 }

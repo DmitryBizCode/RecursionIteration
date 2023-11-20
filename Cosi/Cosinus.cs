@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RecursionIter
+namespace Cosi
 {
     public class Cosinus : Component
     {
@@ -42,9 +42,8 @@ namespace RecursionIter
         {
             if (Math.Abs(currTerm) < min)
                 return 0;
-            else            
-                return mul * currTerm + CosH(currTerm * x * x / (n * (n + 1)), n + 2, -mul);            
+            else
+                return mul * currTerm + CosH(currTerm * x * x / (n * (n + 1)), n + 2, -mul);
         }
     }
-
 }

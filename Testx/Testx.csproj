@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Cosi\Cosi.csproj" />
     <ProjectReference Include="..\RecursionIter.csproj" />
   </ItemGroup>
 
